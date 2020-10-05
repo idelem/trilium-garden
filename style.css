@@ -391,6 +391,10 @@ hr {
     height: 0;
  }
 
+ s {
+     text-decoration: line-through;
+ }
+
 /* .navigation {
     position: relative;
     width: 25%;
