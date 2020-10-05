@@ -383,3 +383,15 @@ html, body {
     height: 100%;
     border: none;
 }
+
+@media (max-width: 768px) {
+    .navigation {
+        width: 100% !important;
+        border: none;
+        height: auto;
+    }
+    .detail {
+        width: 100% !important;
+        border: none;
+    }
+}
