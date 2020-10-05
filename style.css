@@ -355,14 +355,14 @@ pre { overflow: auto;background: #f5f5f5;padding:10px;font-size:80%;margin-botto
 h2 { max-width:400px } 
 h4 { font-style: italic;font-weight: normal } 
 ul, main ol { margin: 0 30px 30px 30px }
-ul ul { margin-bottom:0 }
-ul li { margin-bottom:0 }
+ul ul { margin-bottom:0.5em }
+ul li { margin-bottom:0.5em }
 p { line-height:160% } 
 a:hover, ::selection { background-color:#000;color:#fff;text-decoration:none } 
 a:before { content:"{" }
 a:after { content:"}" }
 a[href^="http"]:before { content:"" }
-a[href^="http"]:after { content:"🡕" }
+a[href^="http"]:after { content:"↗"; font-size: 50%; }
 code { white-space: pre }
 q { font-family:serif;font-size:18px;font-style:italic;display:block;max-width: 400px } 
 img { max-width:100%;display:block;margin:0 0 10px } 
@@ -390,7 +390,7 @@ hr {
     height: 0;
  }
 
-.navigation {
+/* .navigation {
     position: relative;
     width: 25%;
     height: 100%;
@@ -402,10 +402,10 @@ hr {
     width: 70%;
     height: 100%;
     border: none;
-}
+} */
 
 @media only screen and (max-width: 1024px){
-    .navigation {
+    /* .navigation {
         width: 100% !important;
         border: none;
         height: auto;
@@ -413,5 +413,5 @@ hr {
     .detail {
         width: 100% !important;
         border: none;
-    }
+    } */
 }
