@@ -356,7 +356,7 @@ h2 { max-width:400px }
 h4 { font-style: italic;font-weight: normal } 
 ul, main ol { margin: 0 30px 30px 30px }
 ul ul { margin-bottom:0.5em }
-ul li { margin-bottom:0.5em }
+ul li, ol li { margin-bottom:0.5em }
 p { line-height:160% } 
 a:hover, ::selection { background-color:#000;color:#fff;text-decoration:none } 
 a:before { content:"{" }
