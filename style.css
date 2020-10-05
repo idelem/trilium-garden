@@ -377,6 +377,7 @@ html, body {
 
 hr {
     border: none;
+    margin: 2em 0;
  }
  
  hr:before {
