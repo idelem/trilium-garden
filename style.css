@@ -384,7 +384,7 @@ html, body {
     border: none;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 1024px){
     .navigation {
         width: 100% !important;
         border: none;
