@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 /*
  * CKEditor 5 (v19.1.1) content styles.
  * Generated on Fri, 19 Jun 2020 01:26:44 GMT.
@@ -337,7 +339,7 @@
 /* https://github.com/XXIIVV/oscean/blob/master/links/main.css */
 
 * { margin:0;padding:0;box-sizing:border-box;text-decoration:none;color:black }
-body { padding:30px;font-family:"consolas", monospace, sans-serif;font-size:16px } 
+body { padding:30px;font-family:"consolas", "Inconsolata", monospace;font-size:16px } 
 body > * { margin-bottom:30px }
 body > * > * { margin-bottom:30px }
 table td, table th { vertical-align:top;padding:2.5px 5px }
