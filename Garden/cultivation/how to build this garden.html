@@ -8,8 +8,9 @@
   
   <body>
      <h1>how to build this garden</h1>
-     <figure class="image">
-      <img src="./how to build this garden/image.png">
+
+    <figure class="image">
+      <img src="how%20to%20build%20this%20garden/image.png">
     </figure>
     <h3>基础</h3>
     <p>首先，开一个 git repo 并 clone 下来，新建 <code>src</code> 目录（用于堆杂物）和 <code>.gitignore</code> （用于忽略 <code>src</code> 目录）：</p><pre><code class="language-text-plain">src/
@@ -38,7 +39,8 @@ git push</code></pre>
       <li>直接取消自动生成的导航树，在首页布置手动导航</li>
       <li>用 python 脚本等工具，在生成的 html 里插入导航树</li>
     </ol>
-    <p>我选择了方案一，因为我并不想显示整棵导航树。更多的相关思考详见&nbsp;<a class="reference-link" href="handcrafted links.html">handcrafted links</a>&nbsp;这个页面。</p>
+    <p>我选择了方案一，因为我并不想显示整棵导航树。更多的相关思考详见&nbsp;<a class="reference-link" href="handcrafted%20links.html"
+      data-note-path="root/J5jC8psBh9md/W8XAyzSumPmR/HaemRFg2e7cG/99NCRfW2m2yW">handcrafted links</a>&nbsp;这个页面。</p>
     <p>那么我的做法就是把 <code>Garden.html</code> 这个入口文件直接改名为 <code>index.html</code>，就完工了。</p>
     <h3>移动端适配</h3>
     <p>测试中发现，移动端缩放还存在问题，页面特别小。需要添加这一行 meta：</p><pre><code class="language-text-plain">&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</code></pre>
@@ -49,6 +51,7 @@ git push</code></pre>
     <p>如果不想导出整棵树，也可以导出单个 html 文件并保存到指定位置，但是需要<strong>手动链接 css</strong>。参考同级页面的
       link 写法即可。</p>
     <p>页面中的图片等媒体也需要重新链接。</p>
+    <p>需要手动添加 <code>&lt;h1&gt;</code> 标题。</p>
     <h3>最终的工作流</h3>
     <ol>
       <li>在 trilium 里写文章</li>
@@ -81,7 +84,8 @@ git push</code></pre>
     </ul>
     <h3>Known Issues</h3>
     <ul>
-      <li>0.43.4 mac 版本，含 utf-8 字符的文件无法正确导出</li>
+      <li><s>0.43.4 mac 版本，含 utf-8 字符的文件无法正确导出</s>
+        <br>用 The Unarchiver 解压就可以获得正确结果，「归档实用工具」会出错</li>
     </ul>
     <h3>Tips</h3>
     <ul>
