@@ -362,7 +362,7 @@ a:hover, ::selection { background-color:#000;color:#fff;text-decoration:none }
 a:before { content:"{" }
 a:after { content:"}" }
 a[href^="http"]:before { content:"" }
-a[href^="http"]:after { content:"↗"; font-size: 50%; }
+a[href^="http"]:after { content:"↗"; font-size: 80%; }
 code { white-space: pre }
 q { font-family:serif;font-size:18px;font-style:italic;display:block;max-width: 400px } 
 img { max-width:100%;display:block;margin:0 0 10px } 
