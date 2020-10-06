@@ -421,9 +421,9 @@ input:focus {
 .search-input {
     width: 300px;
     margin-top: 2em;
+    border: none;
     border-bottom: #000 1px solid;
     padding: 0.5em;
-    border: none;
 }
 
 .search-button {
