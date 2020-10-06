@@ -395,6 +395,48 @@ hr {
      text-decoration: line-through;
  }
 
+ .loading {
+	display: none;
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.result-preview {
+    color: #cccccc;
+}
+
+input:focus {
+    outline: none;
+    background: transparent;
+}
+
+.search-input {
+    width: 300px;
+    margin-top: 2em;
+    border-bottom: #000 1px solid;
+    padding: 0.5em;
+    border: none;
+}
+
+.search-button {
+    border-radius: 2em;
+    padding: 0.5em;
+    border: none;
+}
+
+footer {
+    border: none;
+    opacity: 30%;
+}
+
 /* .navigation {
     position: relative;
     width: 25%;
