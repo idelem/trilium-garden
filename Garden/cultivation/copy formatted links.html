@@ -1,0 +1,32 @@
+<html>
+  
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../style.css">
+  </head>
+  
+  <body>
+     <h1>copy formatted links</h1>
+
+    <p>here dwell a few javascript bookmarklets to help with making links.</p>
+    <p>copy as markdown:</p>
+    <p><a href="https://gist.github.com/alexeagle/e33ca5a64b7d884f814860fc89f30e62">Bookmarklet to copy current page title and url in Markdown format to clipboard, like title - Usual for posting links to resources in README.md files</a>
+    </p>
+    <p>if you want to copy to tiddlywiki, just modify a few lines:</p><pre><code class="language-text-plain">var tw = '[[' + document.title + '|' + window.location.href + ']]';
+
+copyToClipboard(tw);</code></pre>
+    <p>how to use:</p>
+    <ul>
+      <li>add a new bookmark to your favorite browser</li>
+      <li>copy and paste the code into the url field</li>
+      <li>give it a name and save</li>
+    </ul>
+    <p>&nbsp;</p>
+
+    <footer>
+        <p><a href="/search/search.html" target="_self">search</a> | <a href="https://github.com/idelem/trilium-garden" target="_blank">git repo</a></p>
+    </footer>
+  </body>
+
+</html>
