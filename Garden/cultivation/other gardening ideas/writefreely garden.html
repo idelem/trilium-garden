@@ -1,0 +1,73 @@
+<html>
+  
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../../style.css">
+  </head>
+  
+  <body>
+     <h1>writefreely garden</h1>
+
+    <p>this note describes how to use a <a href="https://writefreely.org/">writefreely</a> multi-user
+      instance as a digital garden, as well as its pros and cons.&nbsp;</p>
+    <p>basics:</p>
+    <ul>
+      <li>create a super user</li>
+      <li>shut down registration</li>
+      <li>set <code>max_blogs</code> to a large number (not sure if 0 stands for infinite,
+        will check later)</li>
+      <li>create blogs for different topics (see: <a href="https://tomcritchlow.com/2019/07/17/blogchains/">blog chain</a>)</li>
+      <li>use tags for horizontal organization (e.g. general topics)</li>
+      <li>the local timeline (“reader”) will be the weblog interface, organized
+        in chronological order (the “stream” part)</li>
+      <li>mention other topics using their handles</li>
+      <li>customize css and landing page as you would with other sites</li>
+    </ul>
+    <p>advanced:</p>
+    <ul>
+      <li>the public garden (the park?): all the public blogs/topics that show up
+        on the timeline</li>
+      <li>the unlisted garden: not accessible via timeline, but traceable by entering
+        keywords</li>
+      <li>the anonymous garden:
+        <ul>
+          <li>use anonymous posts for improvised/wip topics, then move them into a new
+            blog</li>
+          <li>anonymous posts are visible, but they have unique hashes, thus making
+            them sort of “hidden”</li>
+          <li>anonymous posts are almost undiscoverable, until you explicitly link to
+            them from somewhere</li>
+          <li>i found this very handy when i needed to share a piece of wip research
+            with my friends</li>
+        </ul>
+      </li>
+      <li>collaboration: just send out invitation links to people
+        <ul>
+          <li>however, this will be a “partial collab” because they won't be able to
+            change your content</li>
+          <li>however, however, this is not a wiki system anyway</li>
+        </ul>
+      </li>
+    </ul>
+    <p>pros:</p>
+    <ul>
+      <li>each blog chain has its own handle in the fediverse (may also be a con!)</li>
+      <li>easy content management</li>
+      <li>seamless writing with markdown</li>
+      <li>no deploys! no compilations! anymore</li>
+      <li>export content to json or plain text anytime anywhere</li>
+    </ul>
+    <p>cons:</p>
+    <ul>
+      <li>needs a server</li>
+      <li>no full-text search (yet, but the site can be indexed by a search engine)</li>
+    </ul>
+    <p>&nbsp;</p>
+
+    <footer>
+        <p><a href="/search/search.html" target="_self">search</a> | <a href="https://github.com/idelem/trilium-garden" target="_blank">git repo</a></p>
+    </footer>
+  </body>
+
+</html>
